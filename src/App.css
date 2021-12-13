@@ -174,10 +174,61 @@ img {
   align-self: center;
 }
 
+/***************** Services ********************/
+#services {
+  background-color: #f1f1f1;
+  height: auto;
+}
+#services h1 {
+  text-align: left;
+}
+.skill {
+  padding: 15px;
+}
+.skill-line {
+  height: 12px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+.skill-line-inner {
+  height: 12px;
+}
+.skill-line-inner.react {
+  width: 80%;
+  background: rgb(97,218,251);
+  /* background: linear-gradient(90deg, rgba(97,218,251,1) 0%, rgba(102,123,128,1) 100%); */
+}
+.skill-tech {
+  font-weight: bold;
+}
+.skill-line-inner.gatsby {
+  width:80%;
+  background: #663399;
+  /* background: linear-gradient(90deg, rgba(104,160,99,1) 0%, rgba(48,48,48,1) 100%); */
+}
+.skill-line-inner.redux {
+  width:70%;
+  background: #764abc;
+  /* background: linear-gradient(90deg, rgba(104,160,99,1) 0%, rgba(48,48,48,1) 100%); */
+}
+.skill-line-inner.node {
+  width:70%;
+  background: rgb(104,160,99);
+  /* background: linear-gradient(90deg, rgba(104,160,99,1) 0%, rgba(48,48,48,1) 100%); */
+}
+.skill-line-inner.mongo {
+  width:70%;
+  background: rgb(77,179,61);
+  /* background: linear-gradient(90deg, rgba(77,179,61,1) 0%, rgba(63,62,66,1) 100%); */
+}
+.skill-line-inner.mysql {
+  width:70%;
+  background: #f29111;
+  /* background: linear-gradient(90deg, rgba(77,179,61,1) 0%, rgba(63,62,66,1) 100%); */
+}
 /***************** Portfolio *******************/
 #portfolio {
   height: auto;
-  background-color: #f1f1f1;
   padding: 4em 0 3em;
 }
 .portfolio-block {
