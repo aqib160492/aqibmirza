@@ -178,6 +178,7 @@ img {
 #services {
   background-color: #f1f1f1;
   height: auto;
+  padding: 4em 0 3em;
 }
 #services h1 {
   text-align: left;
@@ -291,7 +292,7 @@ img {
 }
 
 @media screen and (max-width: 767px){
-  #about, #portfolio {
+  #about, #portfolio, #services {
     padding-top: 130px
   }
   hr{
