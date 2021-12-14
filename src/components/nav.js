@@ -23,7 +23,7 @@ const Navbar = props => {
   return (
     <div className="navBar">
       <button onClick={props.toggleMenuAction}>
-        <a href="/aqibmirza/#" onClick={(e) => {handleClick(e,"home")}}><img src={Menu} alt={"Menu"} /></a>
+        <img src={Menu} alt={"Menu"} />
       </button>
       <ul className={props.toggle ? "nav-links show-nav" : "nav-links"}>
         <li><a href="/aqibmirza/#" onClick={(e) => {handleClick(e,"home")}}>Home</a></li>

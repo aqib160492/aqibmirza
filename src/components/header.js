@@ -16,6 +16,11 @@ const mapStateToProps = state => ({
   });
 
 const Header = (props) => {
+  const handleClick = (event,target) => {
+    event.preventDefault();
+    const anchorTarget = document.getElementById(target)
+    anchorTarget.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
   useEffect(()=> {
     document.addEventListener("scroll", () => {
     if(window !== "undefined" && window.pageYOffset >= 20)
@@ -29,7 +34,9 @@ const Header = (props) => {
       <Container>
         <Row className={"logo-container"}>
           <Col md={3} xs={6} className={"logo-left text-left"}>
-            <img className={"logo"} src={logo} alt={"logo"} height={80} />
+            <a href="/aqibmirza/#" onClick={(e) => {handleClick(e,"home")}}>
+              <img className={"logo"} src={logo} alt={"logo"} height={80} />
+            </a>
           </Col>
           <Col md={9} xs={6}>
             <Navbar />
