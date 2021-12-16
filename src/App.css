@@ -105,7 +105,6 @@ font-weight: bold;
 clear: both;
 text-align: center;
 transition: height 0.5s ease-in-out;
-width: 100%;
 }
 
 .show-nav {
@@ -314,6 +313,9 @@ img {
     padding-top: 20px
   }
   .show-nav {
+    width: 100%;
+  }
+  .nav-links {
     width: 100%;
   }
 }
